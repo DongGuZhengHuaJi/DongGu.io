@@ -1,11 +1,24 @@
-avatar: /images/avatar.jpg # 网站 Logo
-background: # 既是博客的背景，又是文章默认头图
-    path: /images/bg.jpg
-    width: 1280
-    height: 720
+avatar: /images/avatars/avatar.jpg # 网站 Logo
+background: # 网站背景图（随机选择一张）
+    list:
+        - path: /images/backgrounds/bg1.jpg
+          width: 1280
+          height: 720
+        - path: /images/backgrounds/bg2.jpg
+          width: 1280
+          height: 720
+        - path: /images/backgrounds/bg3.jpg
+          width: 1280
+          height: 720
+        - path: /images/backgrounds/bg4.jpg
+          width: 1280
+          height: 720
+        - path: /images/backgrounds/bg5.jpg
+          width: 1280
+          height: 720
 favicon:
-    href: https://kira.host/assets/Pictures/Others/116359b4ccf19917.jpg # 网站图标
-    type: image/png # 图标类型，可能的值有(image/png, image/vnd.microsoft.icon, image/x-icon, image/gif)
+    href: /images/avatars/avatar.jpg # 网站图标
+    type: image/jpg
 
 # 附加图标库 使用说明：https://kira.host/hexo/config/icon.html
 # iconlib: //at.alicdn.com/t/font_3299330_el19bsi97h8.css
@@ -57,11 +70,11 @@ social:
         - icon-github
         - rgb(25, 23, 23)
         - rgba(25, 23, 23, .15)
-    Gitee:
-        - https://gitee.com/<你的gitee id>
-        - icon-gitee
-        - rgb(165, 15, 15)
-        - rgba(165, 15, 15, .15)
+    # Gitee:
+    #     - https://gitee.com/<你的gitee id>
+    #     - icon-gitee
+    #     - rgb(165, 15, 15)
+    #     - rgba(165, 15, 15, .15)
 
 color: # 配色方案，从first到seventh为优先级为1-7的颜色，默认为彩虹配色
     first: # 同时作为主题色
@@ -105,15 +118,15 @@ gitalk:
 # 你们不要在这里填我的 giscus 配置项，不然你们博客下的评论会全部跑到我的仓库下面……
 # https://giscus.app/zh-CN 可以在这个网站上手动选择配置填到下方对应位置
 giscus:
-    active: true # 是否启用 giscus
-    repo: -your github username-/-your giscus repo- # 存放评论的 discus 所在的 repo
-    repoID: -your giscus repo ID- # GitHub repo ID
+    active: false # 是否启用 giscus（需要先在 https://giscus.app/zh-CN 配置仓库）
+    repo: DongGuZhengHuaJi/DongGu.io # 存放评论的 discussions 所在的 repo
+    repoID: '' # GitHub repo ID（在 giscus.app 获取）
     category: Announcements # 选择新 discussions 所在的分类
-    categoryID: -giscus category id- # 分类 ID
+    categoryID: '' # 分类 ID（在 giscus.app 获取）
     mapping: pathname # pathname, url, title, og:title, specific, number
     # term: # abc 123 # specific | number
     theme: light
-    lang: en
+    lang: zh-CN
 
 copyright: '<strong>版权声明：</strong>本文采用 <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/cn/deed.zh" target="_blank">CC BY-NC-SA 3.0 CN</a> 协议进行许可'
 copyTip: "著作权归作者所有。\n商业转载请联系作者获得授权，非商业转载请注明出处。\n来源：%url" # 自定义复制版权文案,使用 %url 代替当前页面URL, 修改为false禁用

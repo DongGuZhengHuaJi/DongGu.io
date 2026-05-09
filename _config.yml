@@ -5,15 +5,15 @@
 # Site
 title: DongGu的博客
 subtitle: ''
-description: ''
+description: DongGu的博客
 keywords:
 author: DongGu
 language: zh-CN
-timezone: ''
+timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://donggu.github.io
+url: https://donggu.xyz
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
