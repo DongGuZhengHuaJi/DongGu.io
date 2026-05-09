@@ -1,21 +1,14 @@
 avatar: /images/avatars/avatar.jpg # 网站 Logo
-background: # 网站背景图（随机选择一张）
+background: # 网站背景图，下方 list 用于随机选择
+    path: /images/backgrounds/bg1.jpg # 默认背景
+    width: 1280
+    height: 720
     list:
-        - path: /images/backgrounds/bg1.jpg
-          width: 1280
-          height: 720
-        - path: /images/backgrounds/bg2.jpg
-          width: 1280
-          height: 720
-        - path: /images/backgrounds/bg3.jpg
-          width: 1280
-          height: 720
-        - path: /images/backgrounds/bg4.jpg
-          width: 1280
-          height: 720
-        - path: /images/backgrounds/bg5.jpg
-          width: 1280
-          height: 720
+        - /images/backgrounds/bg1.jpg
+        - /images/backgrounds/bg2.jpg
+        - /images/backgrounds/bg3.jpg
+        - /images/backgrounds/bg4.jpg
+        - /images/backgrounds/bg5.jpg
 favicon:
     href: /images/avatars/avatar.jpg # 网站图标
     type: image/jpg
