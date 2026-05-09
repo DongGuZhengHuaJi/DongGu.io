@@ -111,14 +111,14 @@ gitalk:
 # 你们不要在这里填我的 giscus 配置项，不然你们博客下的评论会全部跑到我的仓库下面……
 # https://giscus.app/zh-CN 可以在这个网站上手动选择配置填到下方对应位置
 giscus:
-    active: false # 是否启用 giscus（需要先在 https://giscus.app/zh-CN 配置仓库）
+    active: true # 是否启用 giscus（需要先在 https://giscus.app/zh-CN 配置仓库）
     repo: DongGuZhengHuaJi/DongGu.io # 存放评论的 discussions 所在的 repo
-    repoID: '' # GitHub repo ID（在 giscus.app 获取）
+    repoID: R_kgDOSXrarA # GitHub repo ID（在 giscus.app 获取）
     category: Announcements # 选择新 discussions 所在的分类
-    categoryID: '' # 分类 ID（在 giscus.app 获取）
+    categoryID: DIC_kwDOSXrarM4C8qeQ # 分类 ID（在 giscus.app 获取）
     mapping: pathname # pathname, url, title, og:title, specific, number
     # term: # abc 123 # specific | number
-    theme: light
+    theme: preferred_color_scheme
     lang: zh-CN
 
 copyright: '<strong>版权声明：</strong>本文采用 <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/cn/deed.zh" target="_blank">CC BY-NC-SA 3.0 CN</a> 协议进行许可'
