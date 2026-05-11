@@ -106,3 +106,6 @@ deploy:
 
 aplayer:
   asset_inject: false # 禁止 aplayer 注入资源
+
+mathjax:
+  every_page: true
