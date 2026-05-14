@@ -7,7 +7,7 @@
     "clean": "hexo clean",
     "deploy": "hexo deploy",
     "server": "hexo server",
-    "cloudflare": "wget -qO- https://github.com/jgm/pandoc/releases/download/3.1.11/pandoc-3.1.11-linux-amd64.tar.gz | tar xz --strip-components 1 -C ./node_modules/.bin && hexo clean && hexo generate"
+    "cloudflare": "mkdir -p ./node_modules/.bin && curl -L https://github.com/jgm/pandoc/releases/download/3.1.11/pandoc-3.1.11-linux-amd64.tar.gz | tar xz --strip-components 2 -C ./node_modules/.bin pandoc-3.1.11/bin/pandoc && chmod +x ./node_modules/.bin/pandoc && hexo clean && hexo generate"
   },
   "hexo": {
     "version": "7.3.0"
