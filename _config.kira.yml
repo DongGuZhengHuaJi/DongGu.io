@@ -138,5 +138,12 @@ friends:
     #   link: <跳转连接>
     #   name: <名称>
 
+# Live2D 看板娘 (l2d)
+l2d:
+  enable: true
+  modelPath: https://model.hacxy.cn/potion-Maker-Pio/index.json
+  width: 300
+  height: 400
+
 # 可复制的代码块
 copyableCodeblock: true
