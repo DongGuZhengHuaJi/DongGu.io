@@ -2,6 +2,7 @@
 title: 用auto代替显式类型声明
 date: 2026-08-04 15:42:06
 tags: [C++, auto, 类型推导, 现代C++]
+categories: [现代C++学习]
 cover: /images/pictures/现代C++学习/ばなこ武丸147994165.jpg
 ---
 
